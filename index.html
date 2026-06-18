@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0063)https://fierrofertiladm-sys.github.io/Maquinaria-Fierro-Fertil/ -->
+<!-- saved from url=(0042)file:///C:/Users/PC/Downloads/index_6.html -->
 <html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1175,8 +1175,8 @@
     </div>
   </div>
   <div class="step-indicator">
-    <div class="step-dot done" id="dot1"></div>
-    <div class="step-dot active" id="dot2"></div>
+    <div class="step-dot active" id="dot1"></div>
+    <div class="step-dot" id="dot2"></div>
     <div class="step-dot" id="dot3"></div>
     <span>Pedido de Compra</span>
   </div>
@@ -1204,10 +1204,10 @@
         <input type="text" id="searchInput" placeholder="Buscar modelo, chasis..." oninput="filterStock()">
       </div>
       <div class="filter-tabs">
-        <div class="filter-tab" onclick="setFilter(&#39;all&#39;, this)">Todos</div>
+        <div class="filter-tab active" onclick="setFilter(&#39;all&#39;, this)">Todos</div>
         <div class="filter-tab" onclick="setFilter(&#39;STOCK&#39;, this)">Stock</div>
         <div class="filter-tab" onclick="setFilter(&#39;EN VIAJE&#39;, this)">En viaje</div>
-        <div class="filter-tab active" onclick="setFilter(&#39;RESERVADO&#39;, this)">Reservado</div>
+        <div class="filter-tab" onclick="setFilter(&#39;RESERVADO&#39;, this)">Reservado</div>
         <div class="filter-tab" onclick="setFilter(&#39;SEÑADO&#39;, this)">Señado</div>
         <div class="filter-tab" onclick="setFilter(&#39;PRODUCCION&#39;, this)">Producción</div>
         <div style="width:1px;background:var(--gray-200);align-self:stretch;margin:0 2px;"></div>
@@ -1215,7 +1215,271 @@
       </div>
     </div>
     <button class="btn-add-equipo" onclick="openModal()">＋ Agregar equipo</button>
-    <div class="stock-list" id="stockList"><div class="group-label">YTO (Tractores) (3)</div>
+    <div class="stock-list" id="stockList"><div class="group-label">YTO (Tractores) (47)</div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_0&#39;)" id="si_YTO_0">
+          <div>
+            <div class="item-name">YTO-ESK304</div>
+            <div class="item-sub">42615238 · Y261028567</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_0&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_1&#39;)" id="si_YTO_1">
+          <div>
+            <div class="item-name">YTO-ESK304</div>
+            <div class="item-sub">42615237 · Y261028565</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_1&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_2&#39;)" id="si_YTO_2">
+          <div>
+            <div class="item-name">YTO-ESK304</div>
+            <div class="item-sub">42615235 · Y261028566</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_2&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_3&#39;)" id="si_YTO_3">
+          <div>
+            <div class="item-name">YTO-ESK304</div>
+            <div class="item-sub">42615236 · Y261028564</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_3&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_4&#39;)" id="si_YTO_4">
+          <div>
+            <div class="item-name">YTO-ESK454</div>
+            <div class="item-sub">42615242 · Y261028568</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_4&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_5&#39;)" id="si_YTO_5">
+          <div>
+            <div class="item-name">YTO-ESK454</div>
+            <div class="item-sub">42615245 · Y261028570</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_5&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_6&#39;)" id="si_YTO_6">
+          <div>
+            <div class="item-name">YTO-ESK454</div>
+            <div class="item-sub">42615243 · Y261028571</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_6&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_7&#39;)" id="si_YTO_7">
+          <div>
+            <div class="item-name">YTO-ESK454</div>
+            <div class="item-sub">42615244 · Y261028569</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_7&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_8&#39;)" id="si_YTO_8">
+          <div>
+            <div class="item-name">YTO-NLX854</div>
+            <div class="item-sub">32614349 · YT26216897</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_8&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_9&#39;)" id="si_YTO_9">
+          <div>
+            <div class="item-name">YTO-NLX854</div>
+            <div class="item-sub">32614348 · YT26216899</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_9&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_10&#39;)" id="si_YTO_10">
+          <div>
+            <div class="item-name">YTO-NLX1054</div>
+            <div class="item-sub">32614353 · YT26216903</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_10&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_11&#39;)" id="si_YTO_11">
+          <div>
+            <div class="item-name">YTO-NLX1054</div>
+            <div class="item-sub">32614352 · YT26216904</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_11&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_12&#39;)" id="si_YTO_12">
+          <div>
+            <div class="item-name">YTO-NLX1054</div>
+            <div class="item-sub">32614357 · YT26216908</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_12&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_13&#39;)" id="si_YTO_13">
+          <div>
+            <div class="item-name">YTO-NLX1054</div>
+            <div class="item-sub">32614356 · YT26216906</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_13&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_14&#39;)" id="si_YTO_14">
+          <div>
+            <div class="item-name">YTO-NLX1054</div>
+            <div class="item-sub">32614355 · YT26216909</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_14&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_15&#39;)" id="si_YTO_15">
+          <div>
+            <div class="item-name">YTO-NLX1054</div>
+            <div class="item-sub">32614360 · YT26216905</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_15&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_16&#39;)" id="si_YTO_16">
+          <div>
+            <div class="item-name">YTO-NLX1054</div>
+            <div class="item-sub">32614359 · YT26216902</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_16&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_17&#39;)" id="si_YTO_17">
+          <div>
+            <div class="item-name">YTO-NLX1054</div>
+            <div class="item-sub">32614358 · YT26216901</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_17&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_18&#39;)" id="si_YTO_18">
+          <div>
+            <div class="item-name">YTO-NLX1054</div>
+            <div class="item-sub">32614351 · YT26216907</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_18&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_19&#39;)" id="si_YTO_19">
+          <div>
+            <div class="item-name">YTO-NLY1154E</div>
+            <div class="item-sub">32614361 · YT26216896</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_19&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_20&#39;)" id="si_YTO_20">
+          <div>
+            <div class="item-name">YTO-NLX1304</div>
+            <div class="item-sub">32614341 · YT26216911</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_20&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_21&#39;)" id="si_YTO_21">
+          <div>
+            <div class="item-name">YTO-NLX854</div>
+            <div class="item-sub">32609624 · YT26211823</div>
+            <div class="item-sub">Llegada: junio</div>
+            <span style="font-size:10px;color:var(--blue);font-weight:600;margin-top:2px;display:block;">👤 NACHO</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-senado" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_21&#39;)">SEÑADO ▾</span>
+            
+          </div>
+        </div>
         <div class="stock-item " onclick="selectItem(&#39;YTO_22&#39;)" id="si_YTO_22">
           <div>
             <div class="item-name">YTO-NLX854</div>
@@ -1225,6 +1489,18 @@
           </div>
           <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
             <span class="estado-badge badge-reservado" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_22&#39;)">RESERVADO ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_23&#39;)" id="si_YTO_23">
+          <div>
+            <div class="item-name">YTO-NMF604</div>
+            <div class="item-sub">42610936 · YT26212368</div>
+            <div class="item-sub">Llegada: junio</div>
+            <span style="font-size:10px;color:var(--blue);font-weight:600;margin-top:2px;display:block;">👤 Mathias</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-senado" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_23&#39;)">SEÑADO ▾</span>
             
           </div>
         </div>
@@ -1251,7 +1527,559 @@
             <span class="estado-badge badge-reservado" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_25&#39;)">RESERVADO PROLESA ▾</span>
             
           </div>
-        </div><div class="group-label">PALAS (2)</div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_26&#39;)" id="si_YTO_26">
+          <div>
+            <div class="item-name">YTO-NLY1154E</div>
+            <div class="item-sub">32528598 · YT25229993</div>
+            <div class="item-sub">Llegada: Mar 2026</div>
+            <span style="font-size:10px;color:var(--blue);font-weight:600;margin-top:2px;display:block;">👤 Mathias</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-senado" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_26&#39;)">SEÑADO ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_27&#39;)" id="si_YTO_27">
+          <div>
+            <div class="item-name">YTO-NLX1054</div>
+            <div class="item-sub">32614354 · YT26216900</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            <span style="font-size:10px;color:var(--blue);font-weight:600;margin-top:2px;display:block;">👤 MARIO</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-senado" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_27&#39;)">SEÑADO ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_28&#39;)" id="si_YTO_28">
+          <div>
+            <div class="item-name">YTO-NLX1304</div>
+            <div class="item-sub">32614340 · YT26216910</div>
+            <div class="item-sub">Llegada: JULIO</div>
+            <span style="font-size:10px;color:var(--blue);font-weight:600;margin-top:2px;display:block;">👤 MARIO</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-senado" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_28&#39;)">SEÑADO ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_29&#39;)" id="si_YTO_29">
+          <div>
+            <div class="item-name">YTO-ESK304</div>
+            <div class="item-sub">42610936 · Y261019353</div>
+            <div class="item-sub">Llegada: junio</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_29&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_30&#39;)" id="si_YTO_30">
+          <div>
+            <div class="item-name">YTO-ESK304</div>
+            <div class="item-sub">42610935 · Y261019352</div>
+            <div class="item-sub">Llegada: junio</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_30&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_31&#39;)" id="si_YTO_31">
+          <div>
+            <div class="item-name">YTO-ESK304</div>
+            <div class="item-sub">42610938 · Y261019350</div>
+            <div class="item-sub">Llegada: junio</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_31&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_32&#39;)" id="si_YTO_32">
+          <div>
+            <div class="item-name">YTO-ESK304</div>
+            <div class="item-sub">42610937 · Y261019351</div>
+            <div class="item-sub">Llegada: junio</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_32&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_33&#39;)" id="si_YTO_33">
+          <div>
+            <div class="item-name">YTO-ESK454</div>
+            <div class="item-sub">42610940 · Y261019355</div>
+            <div class="item-sub">Llegada: junio</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_33&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_34&#39;)" id="si_YTO_34">
+          <div>
+            <div class="item-name">YTO-ESK454</div>
+            <div class="item-sub">42610939 · Y261019358</div>
+            <div class="item-sub">Llegada: junio</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_34&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_35&#39;)" id="si_YTO_35">
+          <div>
+            <div class="item-name">YTO-NLY1154E</div>
+            <div class="item-sub">32609630 · YT26212197</div>
+            <div class="item-sub">Llegada: junio</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_35&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_36&#39;)" id="si_YTO_36">
+          <div>
+            <div class="item-name">YTO-NLY1154E</div>
+            <div class="item-sub">32609631 · YT26212200</div>
+            <div class="item-sub">Llegada: junio</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_36&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_37&#39;)" id="si_YTO_37">
+          <div>
+            <div class="item-name">YTO-NLY1154E</div>
+            <div class="item-sub">32609632 · YT26212198</div>
+            <div class="item-sub">Llegada: junio</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_37&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_38&#39;)" id="si_YTO_38">
+          <div>
+            <div class="item-name">YTO-NLY1154E</div>
+            <div class="item-sub">32609633 · YT26212196</div>
+            <div class="item-sub">Llegada: junio</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_38&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_39&#39;)" id="si_YTO_39">
+          <div>
+            <div class="item-name">YTO-ELG1754</div>
+            <div class="item-sub">32691213 · H9257020608</div>
+            <div class="item-sub">Llegada: junio</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_39&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_40&#39;)" id="si_YTO_40">
+          <div>
+            <div class="item-name">YTO-ESK454</div>
+            <div class="item-sub">42610941 · Y261019357</div>
+            <div class="item-sub">Llegada: junio</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_40&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_41&#39;)" id="si_YTO_41">
+          <div>
+            <div class="item-name">YTO-NLX1404</div>
+            <div class="item-sub">32528587 · YT25229960</div>
+            <div class="item-sub">Llegada: Mar 2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_41&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_42&#39;)" id="si_YTO_42">
+          <div>
+            <div class="item-name">YTO-NLX1404</div>
+            <div class="item-sub">32528586 · YT25229959</div>
+            <div class="item-sub">Llegada: Mar 2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_42&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_43&#39;)" id="si_YTO_43">
+          <div>
+            <div class="item-name">YTO-ESK304</div>
+            <div class="item-sub">42528957 · Y251055749</div>
+            <div class="item-sub">Llegada: Mar 2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_43&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_44&#39;)" id="si_YTO_44">
+          <div>
+            <div class="item-name">YTO-ESK304</div>
+            <div class="item-sub">42528958 · Y251055748</div>
+            <div class="item-sub">Llegada: Mar 2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_44&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_45&#39;)" id="si_YTO_45">
+          <div>
+            <div class="item-name">YTO-NF754</div>
+            <div class="item-sub">42529005 · YT25230058</div>
+            <div class="item-sub">Llegada: Mar 2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_45&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;YTO_46&#39;)" id="si_YTO_46">
+          <div>
+            <div class="item-name">YTO-NF754</div>
+            <div class="item-sub">42525817 · YT25224004</div>
+            <div class="item-sub">Llegada: Dic 2025</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;YTO_46&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div><div class="group-label">PALAS (37)</div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_0&#39;)" id="si_PALAS_0">
+          <div>
+            <div class="item-name">TZ10D</div>
+            
+            <div class="item-sub">Llegada: Ago 2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_0&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_1&#39;)" id="si_PALAS_1">
+          <div>
+            <div class="item-name">TZ10D</div>
+            
+            <div class="item-sub">Llegada: Ago 2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_1&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_2&#39;)" id="si_PALAS_2">
+          <div>
+            <div class="item-name">TZ04D</div>
+            
+            <div class="item-sub">Llegada: Ago 2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_2&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_3&#39;)" id="si_PALAS_3">
+          <div>
+            <div class="item-name">TZ04D</div>
+            
+            <div class="item-sub">Llegada: Ago 2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-viaje" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_3&#39;)">EN VIAJE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_4&#39;)" id="si_PALAS_4">
+          <div>
+            <div class="item-name">TZ10D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_4&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_5&#39;)" id="si_PALAS_5">
+          <div>
+            <div class="item-name">TZ10D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_5&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_6&#39;)" id="si_PALAS_6">
+          <div>
+            <div class="item-name">TZ10D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_6&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_7&#39;)" id="si_PALAS_7">
+          <div>
+            <div class="item-name">TZ10D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_7&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_8&#39;)" id="si_PALAS_8">
+          <div>
+            <div class="item-name">TZ10D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_8&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_9&#39;)" id="si_PALAS_9">
+          <div>
+            <div class="item-name">TZ10D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_9&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_10&#39;)" id="si_PALAS_10">
+          <div>
+            <div class="item-name">TZ10D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_10&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_11&#39;)" id="si_PALAS_11">
+          <div>
+            <div class="item-name">TZ10D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_11&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_12&#39;)" id="si_PALAS_12">
+          <div>
+            <div class="item-name">TZ10D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_12&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_13&#39;)" id="si_PALAS_13">
+          <div>
+            <div class="item-name">TZ10D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_13&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_14&#39;)" id="si_PALAS_14">
+          <div>
+            <div class="item-name">TZ10D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_14&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_15&#39;)" id="si_PALAS_15">
+          <div>
+            <div class="item-name">TZ10D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_15&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_16&#39;)" id="si_PALAS_16">
+          <div>
+            <div class="item-name">TZ06D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_16&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_17&#39;)" id="si_PALAS_17">
+          <div>
+            <div class="item-name">TZ06D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_17&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_18&#39;)" id="si_PALAS_18">
+          <div>
+            <div class="item-name">TZ06D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_18&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_19&#39;)" id="si_PALAS_19">
+          <div>
+            <div class="item-name">TZ04D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_19&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_20&#39;)" id="si_PALAS_20">
+          <div>
+            <div class="item-name">TZ04D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_20&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_21&#39;)" id="si_PALAS_21">
+          <div>
+            <div class="item-name">TZ04D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_21&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_22&#39;)" id="si_PALAS_22">
+          <div>
+            <div class="item-name">TZ04D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_22&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_23&#39;)" id="si_PALAS_23">
+          <div>
+            <div class="item-name">TZ04D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_23&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_24&#39;)" id="si_PALAS_24">
+          <div>
+            <div class="item-name">TZ04D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-produccion" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_24&#39;)">PRODUCCION ▾</span>
+            
+          </div>
+        </div>
         <div class="stock-item " onclick="selectItem(&#39;PALAS_25&#39;)" id="si_PALAS_25">
           <div>
             <div class="item-name">TZ10D</div>
@@ -1275,35 +2103,227 @@
             <span class="estado-badge badge-reservado" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_26&#39;)">RESERVADO PROLESA ▾</span>
             
           </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_27&#39;)" id="si_PALAS_27">
+          <div>
+            <div class="item-name">TZ06D</div>
+            
+            <div class="item-sub">Llegada: SET-2026</div>
+            <span style="font-size:10px;color:var(--blue);font-weight:600;margin-top:2px;display:block;">👤 Mathias</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-senado" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_27&#39;)">SEÑADO ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_28&#39;)" id="si_PALAS_28">
+          <div>
+            <div class="item-name">TZ10D</div>
+            
+            <div class="item-sub">Llegada: julio</div>
+            <span style="font-size:10px;color:var(--blue);font-weight:600;margin-top:2px;display:block;">👤 Matias</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-senado" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_28&#39;)">SEÑADO ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_29&#39;)" id="si_PALAS_29">
+          <div>
+            <div class="item-name">DK10</div>
+            
+            <div class="item-sub">Llegada: Jun 2026</div>
+            <span style="font-size:10px;color:var(--blue);font-weight:600;margin-top:2px;display:block;">👤 Matias</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-senado" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_29&#39;)">SEÑADO ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_30&#39;)" id="si_PALAS_30">
+          <div>
+            <div class="item-name">TZ10D</div>
+            
+            <div class="item-sub">Llegada: Jun 2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_30&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_31&#39;)" id="si_PALAS_31">
+          <div>
+            <div class="item-name">DK10</div>
+            
+            <div class="item-sub">Llegada: Jun 2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_31&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_32&#39;)" id="si_PALAS_32">
+          <div>
+            <div class="item-name">DK10</div>
+            
+            <div class="item-sub">Llegada: Jun 2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_32&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_33&#39;)" id="si_PALAS_33">
+          <div>
+            <div class="item-name">DK10</div>
+            
+            <div class="item-sub">Llegada: Jun 2026</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_33&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_34&#39;)" id="si_PALAS_34">
+          <div>
+            <div class="item-name">DK10</div>
+            
+            <div class="item-sub">Llegada: Dic 2025</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_34&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_35&#39;)" id="si_PALAS_35">
+          <div>
+            <div class="item-name">DK10</div>
+            
+            <div class="item-sub">Llegada: Dic 2025</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_35&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;PALAS_36&#39;)" id="si_PALAS_36">
+          <div>
+            <div class="item-name">DK10</div>
+            
+            <div class="item-sub">Llegada: Dic 2025</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;PALAS_36&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div><div class="group-label">LONKING (3)</div>
+        <div class="stock-item " onclick="selectItem(&#39;LONKING_0&#39;)" id="si_LONKING_0">
+          <div>
+            <div class="item-name">LG25DT</div>
+            <div class="item-sub">DIESEL</div>
+            <div class="item-sub">Llegada: Sep 2025</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;LONKING_0&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;LONKING_1&#39;)" id="si_LONKING_1">
+          <div>
+            <div class="item-name">CPD25</div>
+            <div class="item-sub">ELECTRICO</div>
+            <div class="item-sub">Llegada: Sep 2025</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;LONKING_1&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;LONKING_2&#39;)" id="si_LONKING_2">
+          <div>
+            <div class="item-name">CPD25</div>
+            <div class="item-sub">ELECTRICO</div>
+            <div class="item-sub">Llegada: Sep 2025</div>
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-stock" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;LONKING_2&#39;)">STOCK ▾</span>
+            
+          </div>
+        </div><div class="group-label">USADOS (4)</div>
+        <div class="stock-item " onclick="selectItem(&#39;USADOS_0&#39;)" id="si_USADOS_0">
+          <div>
+            <div class="item-name">LANDINI LANDINI 110</div>
+            
+            
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-reservado" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;USADOS_0&#39;)">DIPONIBLE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;USADOS_1&#39;)" id="si_USADOS_1">
+          <div>
+            <div class="item-name">CASE IH JX100</div>
+            
+            
+            <span style="font-size:10px;color:var(--blue);font-weight:600;margin-top:2px;display:block;">👤 Mathias</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-reservado" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;USADOS_1&#39;)">DIPONIBLE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;USADOS_2&#39;)" id="si_USADOS_2">
+          <div>
+            <div class="item-name">590.0 JD</div>
+            
+            
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-reservado" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;USADOS_2&#39;)">DIPONIBLE ▾</span>
+            
+          </div>
+        </div>
+        <div class="stock-item " onclick="selectItem(&#39;USADOS_3&#39;)" id="si_USADOS_3">
+          <div>
+            <div class="item-name">EVERUN</div>
+            
+            
+            
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <span class="estado-badge badge-reservado" title="Cambiar estado" onclick="openEstadoMenu(event,&#39;USADOS_3&#39;)">TALLER ▾</span>
+            
+          </div>
         </div></div>
   </div>
 
   <!-- ── RIGHT: FORM ── -->
   <div class="right-panel" id="rightPanel">
-    <div class="empty-state" id="emptyState" style="display: none;">
+    <div class="empty-state" id="emptyState">
       <div class="icon">📋</div>
       <h3>Seleccioná una máquina</h3>
       <p>Elegí un equipo del listado de la izquierda para completar los datos del pedido de compra.</p>
     </div>
 
-    <div id="formArea" style="display: flex; flex-direction: column; gap: 20px;">
+    <div id="formArea" style="display:none; display:none; flex-direction:column; gap:20px;">
 
       <!-- MÁQUINA SELECCIONADA -->
       <div class="form-section">
         <div class="section-title"><span class="icon">🚜</span> Máquina Seleccionada</div>
-        <div class="machine-summary" id="machineSummary">
-    <div class="summary-item"><label>Hoja</label><span>YTO (Tractores)</span></div>
-  
-    <div class="summary-item"><label>Modelo</label><span>YTO-ESK454</span></div>
-  
-    <div class="summary-item"><label>Origen</label><span>SEÑADO</span></div>
-  
-    <div class="summary-item"><label>Chasis</label><span>42610942</span></div>
-  
-    <div class="summary-item"><label>Motor</label><span>Y261019356</span></div>
-  
-    <div class="summary-item"><label>Llegada</label><span>junio</span></div>
-  </div>
+        <div class="machine-summary" id="machineSummary"></div>
         <div class="form-grid cols3" style="padding:14px 20px 18px;">
           <div class="field">
             <label>Descripción en la OC</label>
@@ -1471,7 +2491,7 @@
         </div>
         <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
           <button class="btn-clear" id="btnClear" onclick="clearForm()">🗑 Limpiar</button>
-          <button class="btn-generate" id="btnGenerate" onclick="generatePDF()" disabled="">
+          <button class="btn-generate" id="btnGenerate" onclick="generatePDF()">
             <div class="spinner"></div>
             <span class="btn-text">📄 Generar PDF</span>
           </button>
@@ -1487,50 +2507,10 @@
 <div class="modal-overlay" id="originOverlay">
   <div class="origin-modal">
     <div class="modal-header">
-      <h3 id="originTitle">¿Cómo se vende el equipo: YTO-ESK454?</h3>
+      <h3 id="originTitle">¿Desde dónde sale este equipo?</h3>
       <button class="modal-close" onclick="closeOriginModal()">✕</button>
     </div>
-    <div class="origin-options" id="originOptions">
-      <button class="origin-btn " onclick="confirmOrigin(&#39;YTO_24&#39;,&#39;STOCK&#39;)">
-        <span class="ob-icon">🟢</span>
-        <div>
-          <div class="ob-label">Stock físico </div>
-          <div class="ob-desc">El equipo está en planta listo para entregar.</div>
-        </div>
-        <span class="ob-badge badge-stock">STOCK</span>
-      </button>
-      <button class="origin-btn " onclick="confirmOrigin(&#39;YTO_24&#39;,&#39;EN VIAJE&#39;)">
-        <span class="ob-icon">🚢</span>
-        <div>
-          <div class="ob-label">En viaje / tránsito </div>
-          <div class="ob-desc">El equipo viene en camino, aún no llegó.</div>
-        </div>
-        <span class="ob-badge badge-viaje">EN VIAJE</span>
-      </button>
-      <button class="origin-btn " onclick="confirmOrigin(&#39;YTO_24&#39;,&#39;PRODUCCION&#39;)">
-        <span class="ob-icon">🏭</span>
-        <div>
-          <div class="ob-label">En producción </div>
-          <div class="ob-desc">El equipo todavía está siendo fabricado.</div>
-        </div>
-        <span class="ob-badge badge-produccion">PRODUCCIÓN</span>
-      </button>
-      <button class="origin-btn origin-restricted" onclick="confirmOrigin(&#39;YTO_24&#39;,&#39;RESERVADO&#39;)">
-        <span class="ob-icon">🟡</span>
-        <div>
-          <div class="ob-label">Reservado </div>
-          <div class="ob-desc">El equipo tiene una reserva pero aún puede reasignarse.</div>
-        </div>
-        <span class="ob-badge badge-reservado">RESERVADO</span>
-      </button>
-      <button class="origin-btn origin-restricted" onclick="confirmOrigin(&#39;YTO_24&#39;,&#39;SEÑADO&#39;)">
-        <span class="ob-icon">🔴</span>
-        <div>
-          <div class="ob-label">Señado </div>
-          <div class="ob-desc">El equipo ya tiene seña. Solo registrar datos.</div>
-        </div>
-        <span class="ob-badge badge-senado">SEÑADO</span>
-      </button></div>
+    <div class="origin-options" id="originOptions"></div>
   </div>
 </div>
 
@@ -1639,7 +2619,7 @@
   </div>
 </div>
 
-<div class="toast error" id="toast">⚠️ Este equipo está SEÑADO. El formulario del comprador quedó vacío para el nuevo pedido.</div>
+<div class="toast" id="toast"></div>
 
 <script>
 // ── DATA ─────────────────────────────────────────────────────────────
